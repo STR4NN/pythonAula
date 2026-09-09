@@ -7,4 +7,6 @@ terceiroNumero = numero[0][2]
 quartoNumero = numero[0][3]
 
 numeroInverter = quartoNumero + terceiroNumero + segundoNumero + primeiroNumero
-print("Numero invertido: ", numeroInverter)
+
+castingNumber = int(numeroInverter)
+print("Numero invertido: ", castingNumber, type(castingNumber))
