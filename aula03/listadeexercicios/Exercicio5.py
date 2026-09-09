@@ -10,8 +10,8 @@ comissaoProduto = quantidadeProdutosVendidos * 150
 valorTotalVendas = int(input("Valor total das suas vendas: "))
 comissaoValorTotal = valorTotalVendas * 0.03
 
-print(comissaoValorTotal)
-print(comissaoProduto)
+# print(comissaoValorTotal)
+# print(comissaoProduto)
 
 salarioFinal = salarioBase + comissaoProduto + comissaoValorTotal
 
