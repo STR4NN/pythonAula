@@ -9,4 +9,10 @@ quartoNumero = numero[0][3]
 numeroInverter = quartoNumero + terceiroNumero + segundoNumero + primeiroNumero
 
 castingNumber = int(numeroInverter)
-print("Numero invertido: ", castingNumber, type(castingNumber))
+print("Numero invertido via lógica: ", castingNumber, type(castingNumber))
+
+
+valor_invertido_funcao = str(valor)[::-1]
+# Ou apenas
+print("Valor invertido via função: ",valor_invertido_funcao, type(valor_invertido_funcao))
+
